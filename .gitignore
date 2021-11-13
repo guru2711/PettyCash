@@ -1,5 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#default
+
 # dependencies
 /node_modules
 /.pnp
@@ -21,3 +23,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+public/favicon.ico
+public/favicon.ico
+public/logo192.png
+public/logo512.png
+public/manifest.json
+public/robots.txt
+src/App.test.js
+src/logo.svg
+src/reportWebVitals.js
+src/setupTests.js
