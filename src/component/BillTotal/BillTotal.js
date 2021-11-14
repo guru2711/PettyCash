@@ -30,7 +30,7 @@ const BillTotal = () => {
       <div className="bill-total-container">
         {selectedCostInterval} bill cost:
         <span className="total-cost">
-          {"$" +
+          {"₹" +
             bills
               .reduce((acc, val) => {
                 return val.enabled
@@ -43,7 +43,7 @@ const BillTotal = () => {
       <div className="total-saved-container">
         {selectedCostInterval} saved:
         <span className="total-saved">
-          {"$" +
+          {"₹" +
             bills
               .reduce((acc, val) => {
                 return !val.enabled
