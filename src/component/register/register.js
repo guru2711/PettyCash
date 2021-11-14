@@ -39,7 +39,7 @@ function Register() {
 
     try {
       await axios.post(
-        "http://pettycash-management.herokuapp.com/registration",
+        "https://pettycash-management.herokuapp.com/registration",
         {
           name: name,
           email: email,
