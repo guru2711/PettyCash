@@ -25,7 +25,7 @@ export default function Login({ handleAuth }) {
     }
 
     try {
-      await axios.post("http://pettycash-management.herokuapp.com/login", {
+      await axios.post("https://pettycash-management.herokuapp.com/login", {
         email: email,
         password: password,
       });
