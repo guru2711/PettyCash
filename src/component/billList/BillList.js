@@ -25,7 +25,7 @@ export const BillList = () => {
               }
             ></input>
             <div className="bill-list-row-content">
-              {bill.title} - Rs.{bill.monthlyCost}
+              {bill.title} - ₹ {bill.monthlyCost}
             </div>
           </div>
         );
