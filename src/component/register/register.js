@@ -35,6 +35,7 @@ function Register() {
 //       return;
     } else {
       alert("confirm password doesn't match");
+      return
     }
 
     try {
