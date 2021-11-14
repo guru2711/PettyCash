@@ -32,7 +32,7 @@ function Register() {
     }
     if (passwordAgain === password) {
       // console.log(passwordAgain);
-      return;
+//       return;
     } else {
       alert("confirm password doesn't match");
     }
