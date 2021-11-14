@@ -2,10 +2,10 @@ import React from 'react'
 import {useState} from "react"
 import axios from "axios"
 import "../login/login.css"
-import {useNavigate, Redirect} from 'react-router-dom';
+import {useNavigate, NavLink,Navigate} from 'react-router-dom';
 
 
-export default function Login() {
+export default function Login({handleAuth}) {
 
     const [email,setEmail] = useState("")
     const [password,setPassword] = useState("")
@@ -18,16 +18,18 @@ export default function Login() {
        
         if(email === ""){
           alert("please enter your email id")
+          return
         }else{
         
           console.log(email)  
         }
         if(password === ""){
           alert("please enter your password")
+          return
         }
         else{
         
-          console.log(password)  
+        
         }
      
         
@@ -38,12 +40,18 @@ export default function Login() {
         })
         
         alert(" successfully login")
+        handleAuth(email)
         navigate('/')
        }catch(err){
          alert(err)
          navigate('/register')
        }
         }
+
+if(Boolean(window.localStorage.getItem("auth"))) {
+  <Navigate to="/" />
+}
+
     return (
         <div>
             <div className = "App">
@@ -72,10 +80,10 @@ export default function Login() {
          
         
           <button type="submit" className="btn btn-danger">Login</button>
-          <Redirect to="/register
+          <NavLink to="/register
           ">
               <button className="btn btn-1 btn-danger">Register</button>
-          </Redirect>
+          </NavLink>
       </form>
         </div>
         </div>

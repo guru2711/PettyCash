@@ -1,0 +1,18 @@
+.pettycash-container {
+  padding: 25px;
+  border-radius: 10px;
+  /* width: 500px; */
+  margin: auto;
+  height: 500px;
+
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  box-sizing: border-box;
+}
+
+.Home {
+  background-image: url("./kelly-sikkema-xoU52jUVUXA-unsplash.jpg");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

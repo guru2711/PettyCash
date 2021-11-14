@@ -16,25 +16,28 @@ function Register() {
     
     if(name === ""){
       alert("please enter your name")
+      return
     }else{
     
       console.log(name)  
     }
     if(email === ""){
       alert("please enter your email id")
+      return
     }else{
     
       console.log(email)  
     }
     if(password === ""){
       alert("please enter your password")
+      return
     }else{
     
-      console.log(password)  
+     
     }
     if(passwordAgain === password ){
-    
       console.log(passwordAgain)  
+      return
     }else{
       alert("confirm password doesn't match")
     }
