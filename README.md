@@ -9,3 +9,6 @@ Petty cash is a nominal amount of money readily accessible for paying expenses t
 
 
 project Live on https://pettycash-management.netlify.app/
+
+demo LOGIN id - demo@gmail.com  
+demo password - 123123
