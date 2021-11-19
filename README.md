@@ -1,5 +1,7 @@
 
-PettyCash- Project
+                                   PettyCash- Project
+                                   
+                                   
 ![pettycashcover](https://user-images.githubusercontent.com/59472229/142619903-4a56d4c3-8f43-4e46-bff1-39f2b994ad44.jpg)
 
 Web Application used to manage expenses 
